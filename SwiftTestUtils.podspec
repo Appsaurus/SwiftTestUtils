@@ -10,6 +10,8 @@ Pod::Spec.new do |s|
     :tag => s.version.to_s
   }
 
+  s.swift_version = '4.2'
+
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.9'
   s.tvos.deployment_target = '9.2'
@@ -21,5 +23,6 @@ Pod::Spec.new do |s|
   s.osx.source_files = 'Sources/{macOS,Shared}/**/*'
   s.watchos.source_files = 'Sources/{watchOS,Shared}/**/*'
 
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.1' }
+  s.frameworks = 'XCTest'
+
 end
