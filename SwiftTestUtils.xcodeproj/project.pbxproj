@@ -76,7 +76,7 @@
 		D5C629821C3A892A007F7B7C /* iOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOS.swift; sourceTree = "<group>"; };
 		E460AD8D20B31993004ABCAE /* BaseTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
 		E460AD8E20B31993004ABCAE /* LinuxTestable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinuxTestable.swift; sourceTree = "<group>"; };
-		E460AD8F20B31993004ABCAE /* XCAssertions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCAssertions.swift; sourceTree = "<group>"; };
+		E460AD8F20B31993004ABCAE /* Assertions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assertions.swift; sourceTree = "<group>"; };
 		E460ADA420B31A0C004ABCAE /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		E460ADA520B31A0C004ABCAE /* SwiftTestUtils.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SwiftTestUtils.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -257,7 +257,7 @@
 			children = (
 				E460AD8D20B31993004ABCAE /* BaseTestCase.swift */,
 				E460AD8E20B31993004ABCAE /* LinuxTestable.swift */,
-				E460AD8F20B31993004ABCAE /* XCAssertions.swift */,
+				E460AD8F20B31993004ABCAE /* Assertions.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
