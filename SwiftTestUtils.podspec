@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "SwiftTestUtils"
   s.summary          = "A short description of SwiftTestUtils."
-  s.version          = "0.1.3"
+  s.version          = "0.1.4"
   s.homepage         = "github.com/Strobocop/SwiftTestUtils"
   s.license          = 'MIT'
   s.author           = { "Brian Strobach" => "brian@appsaurus.io" }
